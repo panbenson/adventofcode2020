@@ -95,6 +95,8 @@ def day_thirteen_part_two_bf(file: str):
             #     multiples[i] += 1
 
     print(multiples[0] * busses[0])
+    # solution: find the first multiple which matches the
+    # offset, keep adding otherwise
 
 
 # day_thirteen_part_one('13-example.in')
